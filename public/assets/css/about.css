@@ -1,0 +1,10 @@
+.about_text{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+}
+
+.about{
+    background-color: yellow;
+
+}

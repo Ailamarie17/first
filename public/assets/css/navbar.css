@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.top{
+    width: 100%;
+}
+
+.top-nav{
+    background-color:  #820808;
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+    padding-left: 80px;
+    padding-right: 100px;
+    /* padding: 10px; */
+    height: 30px;
+    align-items: center;
+    font-size: 16px;
+}
+.social{
+    justify-content: center;
+    align-items: center;
+}
+.social span {
+    font-size: 11px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+}
+.contact span {
+    font-size: 11px;
+}
+.contact a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+nav .navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    
+}
+
+nav .action{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+    color: white;   
+}
+
+nav .action a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px
+}
+
+.nav .action .active {
+    background-color: #820808;
+}
+
+.action a:hover {
+    background-color: #820808;
+  }
+

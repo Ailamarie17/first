@@ -1,0 +1,58 @@
+.contact h2{
+    display: flex;
+    font-weight: 700;
+    color: white;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;  
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    line-height: 20px;
+}
+main{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.contactUs{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+}
+
+.info{
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+}
+ 
+footer{
+    margin-top: 10px;
+/* }
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: -40px;
+    margin-top: 50px;
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    align-items: center;
+    text-align: center;
+}
+footer img{
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+    padding: b */
+    
+}                   
+                    
